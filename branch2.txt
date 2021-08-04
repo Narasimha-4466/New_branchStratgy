@@ -1,0 +1,23 @@
+Shell Script:
+
+Variables 
+
+
+#!/bin/sh 
+
+#NAME="Narasi"
+#readonly "NAME"
+#NAME="Sudheer"
+
+#ehco 'welcome $"NAME"'
+
+
+NAME="Narasi"
+unset NAME 
+echo $NAME
+
+#!/bin/sh 
+
+NAME="Narasi"
+unset NAME 
+echo $NAME 
